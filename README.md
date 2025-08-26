@@ -1,4 +1,5 @@
-# 🌸 SVM Hyperparameter Tuning on Iris Dataset
+# 🌸 SVM Hyperparameter Tuning on Iris Dataset 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Zi1E4yhmS-Pg5BcxyuX7UNsWnG5e5wTP)
 
 This project demonstrates **Support Vector Machine (SVM) hyperparameter optimization** on the classic **Iris dataset** using **GridSearchCV** and **RandomizedSearchCV**.  
 It is designed as part of the **AutoML subject** to showcase how hyperparameter tuning can significantly improve model performance.
