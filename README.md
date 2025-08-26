@@ -1,6 +1,7 @@
-# SVM-Hyperparameter-Tuning-Iris
+# 🌸 SVM Hyperparameter Tuning on Iris Dataset
 
----
+This project demonstrates **Support Vector Machine (SVM) hyperparameter optimization** on the classic **Iris dataset** using **GridSearchCV** and **RandomizedSearchCV**.  
+It is designed as part of the **AutoML subject** to showcase how hyperparameter tuning can significantly improve model performance.
 
 ## 📂 Repo Structure
 
@@ -10,16 +11,6 @@ SVM-Hyperparameter-Tuning-on-Iris/
 │   └── iris_svm_hyperparameter_tuning.ipynb
 │── README.md
 ```
-
----
-
-## 📑 README.md
-
-```markdown
-# 🌸 SVM Hyperparameter Tuning on Iris Dataset
-
-This project demonstrates **Support Vector Machine (SVM) hyperparameter optimization** on the classic **Iris dataset** using **GridSearchCV** and **RandomizedSearchCV**.  
-It is designed as part of the **AutoML subject** to showcase how hyperparameter tuning can significantly improve model performance.
 
 ---
 
