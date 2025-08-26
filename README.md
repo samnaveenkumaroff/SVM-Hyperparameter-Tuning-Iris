@@ -11,6 +11,39 @@ SVM-Hyperparameter-Tuning-on-Iris/
 │   └── iris_svm_hyperparameter_tuning.ipynb
 │── README.md
 ```
+## 📌 Questions
+
+### Question 1
+1. Import the dataset from `sklearn.datasets`.
+2. Split the data into training and testing sets.
+3. Create a **Pipeline** with:
+   - `StandardScaler` for feature scaling
+   - `SVC` (Support Vector Classifier) as the model
+4. Use **GridSearchCV** to tune the following hyperparameters:
+   - `C`: [0.1, 1, 10]
+   - `kernel`: ['linear', 'rbf']
+5. Print:
+   - The **best parameters**
+   - The **best cross-validation score**
+   - The **test accuracy**
+
+---
+
+### Question 2
+1. Import the dataset from `sklearn.datasets`.
+2. Split into training and testing sets.
+3. Build a **Pipeline** with:
+   - `StandardScaler`
+   - `SVC` (Support Vector Classifier)
+4. Perform **GridSearchCV** and **RandomizedSearchCV** using the following parameter ranges:
+   - `C`: [0.1, 1, 10, 100]
+   - `kernel`: ['linear', 'rbf', 'poly']
+   - `gamma`: ['scale', 'auto']
+5. Compare and print for both methods:
+   - **Best parameters**
+   - **Cross-validation accuracy**
+   - **Test accuracy**
+
 
 ---
 
